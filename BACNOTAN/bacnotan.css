@@ -1,0 +1,156 @@
+html{
+width:80%;
+padding-left:10%;
+padding-right:10%;
+
+}
+body{
+	width:90%;
+font-family: Verdana;
+border-style:solid;
+border-width:0px 5px 5px 5px;
+border-color:#FF4500;
+background-color:#F0FFFF;
+margin:auto;	
+
+}
+img.image1{
+padding-top:30px;
+}
+
+div.container{
+padding-left:10px;
+padding-right:10px;
+margin-bottom:200px;
+background-color:#F0FFFF;
+}
+
+img{
+border-radius:5px;
+box-shadow : 0px 0px 10px 1px RGBA(255,102,0,1);
+
+}
+ul {
+	text-decoration:none;
+    list-style-type: none;
+    margin: -10;
+    padding-left:20%;
+    overflow: hidden;
+    background-color: #222222 ;
+	    font-family: Bebas;
+
+}
+
+li {
+    float: left;
+	
+}
+.dropdown-content {
+	
+    display: none;
+    position: absolute;
+    background-color: #222222;
+    width:250px;
+	
+}
+
+
+li a, .dropbtn {
+	margin:auto;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 60px;
+    font-family:"Rockwell";
+	font-weight:bold;
+	width:90px;
+	text-decoration:none;
+	
+	
+}
+
+li a:hover , .dropdown:hover .dropbtn{
+    background-color: #FF4500 ;
+	text-decoration:underline;
+	  padding: 14px 60px;
+
+}
+.dropdown-content a:hover {background-color:#FF4500;}
+
+.dropdown:hover .dropdown-content {
+width:210px;
+ display: block;
+
+}
+ ul li.active a{
+   color: #FF4500;
+}
+
+img.image{
+margin-top: 8px;
+padding-left:40px;
+}
+img.image1{
+margin-top:5px;
+margin-left:0px;
+height:50%;
+width:100%;
+
+}
+h1.a{
+    font-family: Bebas;
+	font-size: 40px;
+	color:blue;
+	color:#ff4500;
+	
+}
+h1.b{
+	margin-top:-30px;
+    font-family: Bebas;
+	font-size: 25px;
+	color:blue;
+	color:#ff4500;
+	font-style:italic;
+	
+}
+p.para,.home{
+line-height:20px;
+word-spacing:5px;
+	font-size:15px;
+	text-indent:20px;
+	text-align:justify;
+}
+p.last{
+font-family:bebas;
+font-size:25px;
+text-align:center;
+font-style:italic;
+}
+
+div.head{
+	margin:auto;
+position:fixed;
+left:0px;
+top:0px;
+border-bottom:ridge;
+border-top:ridge;
+ background-color: #00BFFF;
+width:100%;
+border-width:thick;
+box-shadow : 0px 0px 10px 5px RGBA(255,102,0,1);
+}
+div.foot{
+color:#fff;
+position:fixed;
+bottom:0px;
+left:0px;
+width:100%;
+height:40px;
+background-color:#222222;
+font-size:16px;
+border-width:thick;
+box-shadow : 0px 0px 10px 1px RGBA(255,102,0,1);
+padding-top:10px;
+font-family: rockwell;
+margin:auto;
+}
