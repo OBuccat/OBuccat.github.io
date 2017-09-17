@@ -1,0 +1,71 @@
+
+body{
+background-color:#FFF8DC;
+padding-right:5%;
+margin:auto;
+}
+p.in{
+text-indent:50px;
+}
+div.left{
+width:18%;
+padding: 0 0 0 5%;   
+}
+div.content{
+background-image: url(BGCOLOR1.png);
+width:75%;
+float:right;
+margin-top:-350px;
+position:relative;
+padding:5px;
+border-style:solid;
+border-width:5px;
+border-color:#00BFFF;
+font-family:"Verdana", "Geneva";
+font-size:25px;
+text-align:left;
+
+}
+section.mission{
+background-image: url(HD2.jpg);
+
+}
+section.core{
+background-image: url(HD1.jpg);
+padding-bottom:20%;
+}
+p.foot{
+font-family:rockwell;
+font-size:30px;
+color:gold;
+text-align:center;
+}
+	/* header and footer */
+    header,footer{
+    float:left;
+    padding:10px;
+    }
+    header,footer{
+    width:93%;
+    }
+    header,footer{
+    background-color:#333;
+    color:#fff;
+    height:128px;
+	margin-left:5%;
+    }
+    header{
+	background-image: url(slcbannerfinal.png);
+	background-position:center;
+    font-size:1.6em;font-weight:bold;
+    }
+    header big{
+    line-height:130px;
+    vertical-align:bottom;
+    }
+    footer{
+    background-color:#999;
+    text-align:center;
+    height:80px;
+    }
+
